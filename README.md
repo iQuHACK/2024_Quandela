@@ -24,16 +24,15 @@ Your aim is to train a generator to produce the following state: $\frac{1}{2}(\k
  - modify the scenario to work with (multipartite) qubit states and see if you obtain different results,
  - ask your mentors if they have any clever ideas.
 4. Once the circuit is ready, train the QGAN using a variational approach. You will notice that several technical details are omitted in the article, so you will have to explore various options and see what works. This applies to the gradient evaluation, the optimizer, hyperparameters etc.
-5. Bonus: can you add a noise model in Perceval? How does it affect your results?
-6. Bonus: can you run this model directly on the Ascella QPU? If not, what adjustments would you need to make? If you have time, complete the challenge by running at least 1 evaluation of the model on Ascella.
 
-Bonus QGAN to generate maximal entangled ququart state from single photons:
+__Bonus__: 
+__Bonus__: can you add a noise model in Perceval? How does it affect your results?
+__Bonus__: can you run this model directly on the Ascella QPU? If not, what adjustments would you need to make? If you have time, complete the challenge by running at least 1 evaluation of the model on Ascella.
 
-################ need to provide more details ################
 
 ---
 Your mentors for this challenge will be Pierre-Emmanuel Emeriau and Samuel Horsch (on site) and Alexia Salavrakos (on Slack).
 
-Please commit your code in the repository so we can keep track of your contribution. This will be part of the evaluation afterwards.
+Please create a GitHub repository, add us there, and commit your code in the repository so we can keep track of your contribution. This will be part of the evaluation afterwards.
 
 Good luck!
