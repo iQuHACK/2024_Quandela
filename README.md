@@ -28,7 +28,7 @@ Your aim is to train a generator to produce the following state: $\frac{1}{2}(\k
 
 The bonuses below are not ranked so you can choose to pick the one you prefer (or several of course).
 
-__Bonus__: 
+__Bonus__: try to generate the state with more single photons by consumming some for heraldind.
 
 __Bonus__: can you add a noise model in Perceval? How does it affect your results?
 
