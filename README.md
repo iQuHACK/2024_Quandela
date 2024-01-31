@@ -31,7 +31,7 @@ __Bonus__: try to generate the state with more single photons by consumming some
 
 __Bonus__: can you add a noise model in Perceval? How does it affect your results?
 
-__Bonus__: can you run this model directly on the Ascella QPU? If not, what adjustments would you need to make? If you have time, complete the challenge by running at least 1 evaluation of the model on Ascella.
+__Bonus__: can you run this model directly on the [Ascella QPU](https://cloud.quandela.com)? If not, what adjustments would you need to make? If you have time, complete the challenge by running at least 1 evaluation of the model on Ascella.
 
 
 ---
