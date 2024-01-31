@@ -4,7 +4,7 @@ Quandela iQuHACK 2024 In-Person Challenge
 
 ## Quantum generative adversarial learning in photonics
 
-The goal of this challenge is to reproduce the results of [this paper](https://arxiv.org/abs/2310.00585). 
+The goal of this challenge is to reproduce the results of [this paper](https://arxiv.org/abs/2310.00585) using Quandela's solution for quantum computation with linear optics called [__Perceval__](https://perceval.quandela.net). 
 
 In the article, the authors implement a quantum adversarial generative model on a photonic circuit. The generator and the discriminator are directly connected to each other on the same chip: the generator's task is to prepare quantum states and the discriminator task is to be able to tell whether the state generated is the target state or not.
 
