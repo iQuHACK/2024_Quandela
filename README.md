@@ -19,10 +19,11 @@ Your aim is to train a generator to produce the following state: $\frac{1}{2}(\k
 
 1. Start by reproducing the circuit from Figure 1.d of the Wang et al. paper using Perceval.
 2. Figure S1 contains the full circuit including the generation of the initial entangled states. You will notice that the authors generate the initial state using spontaneous four-wave mixing photon-pair sources which is not corresponding to Quandela's hardware? If not, what alternatives can you come up with? Here are some hints of possible approaches (all valid) you could follow:
- - have a look at [this paper](https://arxiv.org/abs/2302.07357),
- - use StateVector,
+ - use the Perceval class StateVector,
  - modify the scenario to work with (multipartite) qubit states and see if you obtain different results,
+ - have a look at [this paper](https://arxiv.org/abs/2302.07357),
  - ask your mentors if they have any clever ideas.
+You don't need to follow all the approaches of course. The first one (which is by far the easiest) is a good first solution.
 4. Once the circuit is ready, train the QGAN using a variational approach. You will notice that several technical details are omitted in the article, so you will have to explore various options and see what works. This applies to the gradient evaluation, the optimizer, hyperparameters etc.
 
 __Bonus__: 
