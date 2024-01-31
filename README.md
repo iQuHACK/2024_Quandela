@@ -21,8 +21,8 @@ Your aim is to train a generator to produce the following state: $\frac{1}{2}(\k
 2. Figure S1 contains the full circuit including the generation of the initial entangled states. You will notice that the authors generate the initial state using spontaneous four-wave mixing photon-pair sources which is not corresponding to Quandela's hardware? If not, what alternatives can you come up with? Here are some hints of possible approaches (all valid) you could follow:
  - have a look at [this paper](https://arxiv.org/abs/2302.07357),
  - use StateVector,
- - modify the scenario to work with (multipartite) qubit states and see if you obtain different results.
- - Bonus: can you build a separate QGAN to generate the initial state? (see below for more details)
+ - modify the scenario to work with (multipartite) qubit states and see if you obtain different results,
+ - ask your mentors if they have any clever ideas.
 4. Once the circuit is ready, train the QGAN using a variational approach. You will notice that several technical details are omitted in the article, so you will have to explore various options and see what works. This applies to the gradient evaluation, the optimizer, hyperparameters etc.
 5. Bonus: can you add a noise model in Perceval? How does it affect your results?
 6. Bonus: can you run this model directly on the Ascella QPU? If not, what adjustments would you need to make? If you have time, complete the challenge by running at least 1 evaluation of the model on Ascella.
