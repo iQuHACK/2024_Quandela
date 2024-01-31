@@ -27,7 +27,9 @@ Your aim is to train a generator to produce the following state: $\frac{1}{2}(\k
 4. Once the circuit is ready, train the QGAN using a variational approach. You will notice that several technical details are omitted in the article, so you will have to explore various options and see what works. This applies to the gradient evaluation, the optimizer, hyperparameters etc.
 
 __Bonus__: 
+
 __Bonus__: can you add a noise model in Perceval? How does it affect your results?
+
 __Bonus__: can you run this model directly on the Ascella QPU? If not, what adjustments would you need to make? If you have time, complete the challenge by running at least 1 evaluation of the model on Ascella.
 
 
