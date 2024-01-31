@@ -16,6 +16,10 @@ In this challenge, you will focus on the scenario where the generator and discri
 ### Objectives:
 Your aim is to train a generator to produce the following state: $\frac{1}{2}(\ket{01} + \ket{12} +\ket{23} + \ket{30})$ from an input state which is the maximally entangled quqart $\frac{1}{2}(\ket{00} + \ket{11} +\ket{22} + \ket{33})$ using a QGAN photonic architecture. See again [this paper](https://arxiv.org/abs/2310.00585).
 
+<p align="center">
+<img src="images/photonicQGAN.png"/>
+</p>
+
 1. Start by reproducing the circuit from Figure 1.d of the Wang et al. paper using Perceval.
 2. Figure S1 contains the full circuit including the generation of the initial entangled states. You will notice that the authors generate the initial state using spontaneous four-wave mixing photon-pair sources which is not corresponding to Quandela's hardware? If not, what alternatives can you come up with? Below are some hints of possible approaches (all valid) you could follow. You don't need to follow all the approaches of course. The first one (which is by far the easiest) is a good first solution.
  - use the Perceval class StateVector,
