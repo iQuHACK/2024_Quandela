@@ -1,5 +1,4 @@
-# 2024_Quandela
-Quandela iQuHACK 2024 In-Person Challenge
+# Quandela iQuHACK 2024 In-Person Challenge
 
 
 ## Quantum generative adversarial learning in photonics
