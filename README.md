@@ -1,6 +1,5 @@
 # Quandela iQuHACK 2024 In-Person Challenge
 
-
 ## Quantum generative adversarial learning in photonics
 
 The goal of this challenge is to reproduce the results of [this paper](https://arxiv.org/abs/2310.00585) using Quandela's solution for quantum computation with linear optics called [__Perceval__](https://perceval.quandela.net). 
@@ -41,7 +40,7 @@ $$ U = \frac{1}{\sqrt{2}}\begin{pmatrix}
 
 The bonuses below are not ranked so you can choose to pick the one you prefer (or several of course).
 
-__Bonus__: try to generate the state with more single photons by consumming some for heraldind.
+__Bonus__: try to generate the state with more single photons by consuming some for heralding.
 
 __Bonus__: can you add a noise model in Perceval? How does it affect your results?
 
@@ -51,6 +50,36 @@ __Bonus__: can you run this model directly on the [Ascella QPU](https://cloud.qu
 ---
 Your mentors for this challenge will be Pierre-Emmanuel Emeriau and Samuel Horsch (on site) and Alexia Salavrakos (on Slack).
 
-Please create a GitHub repository, add us there, and commit your code in the repository so we can keep track of your contribution. This will be part of the evaluation afterwards.
+## How to use Perceval
+
+### What is Perceval
+Perceval is Quandela quantum simulation framework which **must** be used to answer this challenge
+
+Perceval provides tools for composing circuits from linear optical components, defining single-photon sources, manipulating Fock states, running simulations, reproducing published experimental papers and experimenting with a new generation of quantum algorithms.
+
+You can find documentation regarding Perceval here: https://perceval.quandela.net/docs/
+
+And the source code repository is here: https://github.com/Quandela/Perceval
+
+### Installation & Use
+You have all the installation explanation on the github repository, we advise you to work on the version 0.10.3.
+
+A lot of notebooks are available our github (in docs/source/notebooks) or in our documentation to inspire you.
+
+If you have any issue, please contact either Marion Fabre (on site) or Eric Bertasi or Melvin Mathe (on Slack).
+
+### What we expect
+Create a GitHub repository, either add us (our usernames are in your github challenge repo) or send us the link (if it's public), and commit your code in this repository so we can keep track of your contribution. **Only** the code in the **main** branch will be reviewed and will be part of your evaluation.
+
+The main branch of your git repository is required to follow at least this file architecture:
+```
+.
+├── requirements.txt
+├── README.md
+```
+- requirements.txt should contain all your scripts' python module dependencies, and follow the [requirements format](https://pip.pypa.io/en/stable/reference/requirements-file-format/)
+- README.md explains how to use your repository and how you came up with this result(s)
+
+Other files must be included in you git repository (such as python files or jupyter notebook, ...) and we must be able to reproduce every new graphs or results that you will show in your presentation
 
 Good luck!
