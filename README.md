@@ -20,7 +20,7 @@ Your aim is to train a generator to produce the following state: $\frac{1}{2}(\k
 </p>
 
 1. Start by reproducing the circuit from Figure 1.d of the Wang et al. paper using Perceval.
-2. Figure S1 contains the full circuit including the generation of the initial entangled states. You will notice that the authors generate the initial state using spontaneous four-wave mixing photon-pair sources which is not corresponding to Quandela's hardware? If not, what alternatives can you come up with? Below are some hints of possible approaches (all valid) you could follow. You don't need to follow all the approaches of course. The first one (which is by far the easiest) is a good first solution.
+2. Figure S1 contains the full circuit including the generation of the initial entangled states. You will notice that the authors generate the initial state using spontaneous four-wave mixing photon-pair sources which is not corresponding to Quandela's hardware. What alternatives can you come up with? Below are some hints of possible approaches (all valid) you could follow. You don't need to follow all the approaches of course. The first one (which is by far the easiest) is a good first solution.
  - use the Perceval class StateVector,
  - modify the scenario to work with (multipartite) qubit states and see if you obtain different results,
  - have a look at [this paper](https://arxiv.org/abs/2302.07357). Hint: start from another entangled state that is easier to produce and use the following Fock space unitary:
